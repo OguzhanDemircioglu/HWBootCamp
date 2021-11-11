@@ -1,0 +1,23 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		list list1=new list(null);
+		
+		System.out.println(list1.add("Ankara"));
+		
+		System.out.println(list1.contains("Ankara"));
+		
+		System.out.println(list1.remove("İzmir"));
+		System.out.println(list1.remove("Ankara"));
+		
+		System.out.println(list1.add("Ankara"));
+		System.out.println(list1.remove(1));
+		System.out.println(list1.remove(0));
+
+		System.out.println(list1.Mylist());
+
+	}
+
+}
