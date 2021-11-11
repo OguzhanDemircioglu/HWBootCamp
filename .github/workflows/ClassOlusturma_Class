@@ -1,0 +1,41 @@
+
+public class list {
+
+	String sehir;
+public list(String sehir) {
+	this.sehir=sehir;
+}
+
+public String add(String city) {
+	sehir=city;
+	return sehir;
+}
+
+public boolean contains(String city) {
+	
+	if(sehir==city) {
+	return true;
+}else
+	return false;}
+
+public String remove(String city) {
+	if(sehir==city) {
+		sehir=null;
+		return "Nesnedeki şehir silidi, nesnedeki şehirin son hali: "+sehir;
+	}else
+		return "Böyle bir şehir yok";
+}
+
+public String remove(int a) {
+	if(a==0) {
+		sehir=null;
+	return "Şehiri sildiniz: Şehir= "+sehir;
+}else
+	return "Neyi silmek istiyorsunuz";
+}
+
+public String Mylist() {
+	return "Listedeki değerler: "+sehir;
+}
+
+}
